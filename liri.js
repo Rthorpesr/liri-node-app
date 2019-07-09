@@ -62,9 +62,9 @@ function concertthis()
                         {
                              bandName += nodeArgs[i];
                         }
-
+              }
          // Then run a request with axios to the OMDB API with the movie specified
-         var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
+         var queryUrl = "https://rest.bandsintown.com/artists/"+bandName + "/events?app_id=codingbootcamp" 
 
          // This line is just to help us debug against the actual URL.
          console.log(queryUrl);
@@ -82,6 +82,7 @@ function concertthis()
                         {
                              // The request was made and the server responded with a status code
                              // that falls out of the range of 2xx
+                             console.log("concert this rtn " +value);
                              console.log("---------------Data---------------");
                              console.log(error.response.data);
                              console.log("---------------Status---------------");
@@ -104,9 +105,6 @@ function concertthis()
                    console.log(error.config);
               });
     }
-
-console.log("Moviethis rtn " +value);
-}
 
 
 // If the "action" entered is "spotify-this-song" function is called...
@@ -133,6 +131,7 @@ function moviethis()
                         {
                              movieName += nodeArgs[i];
                         }
+               }
 
          // Then run a request with axios to the OMDB API with the movie specified
          var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
@@ -152,6 +151,7 @@ function moviethis()
                         {
                              // The request was made and the server responded with a status code
                              // that falls out of the range of 2xx
+                             console.log("Moviethis rtn " +value);
                              console.log("---------------Data---------------");
                              console.log(error.response.data);
                              console.log("---------------Status---------------");
@@ -173,10 +173,10 @@ function moviethis()
                              }
                    console.log(error.config);
               });
-   }
-
-      console.log("Moviethis rtn " +value);
     }
+
+      
+    
 
 // If the "action" entered is "do-what-it-says" function is called...
 function dowhatitsays()
