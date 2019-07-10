@@ -1,8 +1,16 @@
-require("dotenv").config();
+/*  STEP - 1 
+           get this envionment file because my .env file needs it.
+*/
+   require("dotenv").config(); 
 
-var keys = require("./keys.js");
-var Spotify = require('node-spotify-api');
-var spotify = new Spotify(keys.spotify);
+/*  STEP - 2 
+           Set var to the Location of my Spotify keys  
+*/
+var Spotify   = require('node-spotify-api')
+var keys      = require("./keys.js");
+var myspotify = new Spotify(keys.spotify);
+var request   = require("request");
+var moment    = require("moment");
 
 // Include the axios npm package (Don't forget to run "npm install axios" in this folder first!)
 var axios = require("axios");
@@ -16,10 +24,22 @@ var fs = require("fs");
 // The second will be the amount that will be added, withdrawn, etc.
 
 // Store all of the Command line arguments into an array
-var userSelection = process.argv; 
-var action = process.argv[2];
+varuserCommand = process.argv[2];
+var userInput = process.argv.splice(3,process.argv.length).join (" ");
+ 
 
+
+ 
+console.log('type of Entertainment: ' + typeofEntertainment);
+ 
+
+
+// Create an empty variable for holding the movie name
+ 
+
+// We will then create a switch-case statement (if-else would also work).
 // The switch-case will direct which function gets run.
+
 switch (action) 
 {
     case "concert-this":
@@ -44,37 +64,29 @@ function concertthis()
     {
          console.log('Now in the Concert RTN at the top');
          var nodeArgs = process.argv;
+         console.log('My bandname is: ' + nodeArgs);
          var bandName = "";
-
-         /* Loop through all the words in the var nodeArg starting at index 3  
-            where  the band's Name will begin. Thi For loop strings Band names
-            together with the "plus" sign to seach for band names that are more
-            that one name bands for the API query, 
-            Example: if value = "Kool and the Gang" then BandName = "Kool+and+the+gang" 
+         /* Loop through all the words in the var "value"  
+            For loop strings Band names that are mutliple words for API query.
+            for example: if value = "Kool and the Gang"
+            the var BandName would = "Kool+and+the+gang" 
          */
-        console.log("begin for loop to extract band name: " +nodeArgs);
-        console.log("the nodeArgs length is " + nodeArgs.length);
          for (var i = 3; i < nodeArgs.length; i++) 
               {
                    if (i > 3 && i < nodeArgs.length)
                         {
-                          // console.log("the value of I: " +i);
-                            bandName = bandName + "+" + nodeArgs[i];
-                          //  console.log("nodeArgs[i] = " + nodeArgs[i]);
-                          //  console.log("BandName now: " + bandName);
-                            
+                            Name = bandName + "+" + nodeArgs[i];
                         } 
                    else 
                         {
                              bandName += nodeArgs[i];
                         }
               }
-         console.log("after the for loop the band name is: " + bandName);
          // Then run a request with axios to the OMDB API with the movie specified
          var queryUrl = "https://rest.bandsintown.com/artists/"+bandName + "/events?app_id=codingbootcamp" 
 
          // This line is just to help us debug against the actual URL.
-         console.log("++++++++++++ HERE IS THE QUERYURL FOR  ++++++++++++: " + queryUrl);
+         console.log(queryUrl);
 
          axios.get(queryUrl).then(
          function(response) 
@@ -90,6 +102,7 @@ function concertthis()
                         {
                              // The request was made and the server responded with a status code
                              // that falls out of the range of 2xx
+                             console.log("concert this rtn " +bandName);
                              console.log("---------------Data---------------");
                              console.log(error.response.data);
                              console.log("---------------Status---------------");
@@ -126,17 +139,14 @@ function spotifythissong()
          {
               if (i > 3 && i < nodeArgs.length) 
                    {
-                        console.log("spotify i value: " + i);
                         songName = songName + "+" + nodeArgs[i];
-                        console.log("songName = " + songName);
                    } 
               else 
                    {
                        songName += nodeArgs[i];
                    }
          }
-            
-         console.log('%%%%%%%%% - here is what is in songName:' +songName);
+
                spotify.search(
                {
                     type: "track",
@@ -149,23 +159,7 @@ function spotifythissong()
                     }
              var songs = data.tracks.items;
  
-             console.log("**********SONG INFO*********");
-             //fs.appendFileSync("log.txt", "**********SONG INFO*********\n");
-             console.log(i);
-             //fs.appendFileSync("log.txt", i +"\n");
-             console.log("Song name: " + songs[i].name);
-             //fs.appendFileSync("log.txt", "song name: " + songs[i].name +"\n");
-             console.log("Preview song: " + songs[i].preview_url);
-            // fs.appendFileSync("log.txt", "preview song: " + songs[i].preview_url +"\n");
-             console.log("Album: " + songs[i].album.name);
-            // fs.appendFileSync("log.txt", "album: " + songs[i].album.name + "\n");
-             console.log("Artist(s): " + songs[i].artists[0].name);
-            // fs.appendFileSync("log.txt", "artist(s): " + songs[i].artists[0].name + "\n");
-             console.log("*****************************");  
-            // fs.appendFileSync("log.txt", "*****************************\n");
-             
-            /*
-            for (var i = 0; i < songs.length; i++) {
+             for (var i = 0; i < songs.length; i++) {
                  console.log("**********SONG INFO*********");
                  //fs.appendFileSync("log.txt", "**********SONG INFO*********\n");
                  console.log(i);
@@ -180,8 +174,8 @@ function spotifythissong()
                 // fs.appendFileSync("log.txt", "artist(s): " + songs[i].artists[0].name + "\n");
                  console.log("*****************************");  
                 // fs.appendFileSync("log.txt", "*****************************\n");
-              } */
-         }   
+              }
+         }
      );
  };
 // If the "action" entered is "movie-this" function is called...
