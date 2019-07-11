@@ -3,6 +3,7 @@ require("dotenv").config();
 var keys = require("./keys.js");
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
+var moment = require ('moment');
 
 // Include the axios npm package (Don't forget to run "npm install axios" in this folder first!)
 var axios = require("axios");
@@ -79,10 +80,30 @@ function concertthis()
          axios.get(queryUrl).then(
          function(response) 
               {
-                   //console.log(response);
-                   console.log(response.data);
-                   
-                   //console.log("Release Year: " + response.data.Year);
+                   for (var i = 0; i < response.data.length; i++)
+                        {
+                             var date = response.data[i].datetime; //Saves datetime response into a variable
+                             var date = moment(date).format("MM/DD/YYYY");
+                             //console.log ("@@@@@@@@@ DATE @@@");
+                             //console.log("DATE: " + date);
+                            // var concertResults = 
+                            // "-------------------------------------------------------------------" +
+                             //"\nVenue Name: " + response.data[i].venue.name + 
+                             //"\nVenue Location: " + response.data[i].venue.city +
+                            // "\nDate of the Event: " + date
+                            // console.log(concertResults);
+                               
+                             console.log("********* CONCERT INFO*********");
+                             fs.appendFileSync("log.txt", "**********SONG INFO*********\n");
+                             console.log("Venue Name: " + response.data[i].venue.name);
+                             fs.appendFileSync("log.txt", "Venue Name: " + response.data[i].venue.name+ "\n");
+                             console.log("Venue Location: " + response.data[i].venue.city );
+                             fs.appendFileSync("log.txt", "Venue Location: " + response.data[i].venue.city  + "\n");
+                             console.log("Date of the Event: " + date);
+                             fs.appendFileSync("log.txt", "Date of the Event: " +  date + "\n");
+                             console.log("*****************************");  
+                             fs.appendFileSync("log.txt", "*****************************\n");
+                         }
               })
          .catch(function(error) 
               {
@@ -150,37 +171,19 @@ function spotifythissong()
              var songs = data.tracks.items;
  
              console.log("**********SONG INFO*********");
-             //fs.appendFileSync("log.txt", "**********SONG INFO*********\n");
+             fs.appendFileSync("log.txt", "**********SONG INFO*********\n");
              console.log(i);
-             //fs.appendFileSync("log.txt", i +"\n");
+             fs.appendFileSync("log.txt", i +"\n");
              console.log("Song name: " + songs[i].name);
-             //fs.appendFileSync("log.txt", "song name: " + songs[i].name +"\n");
+             fs.appendFileSync("log.txt", "song name: " + songs[i].name +"\n");
              console.log("Preview song: " + songs[i].preview_url);
-            // fs.appendFileSync("log.txt", "preview song: " + songs[i].preview_url +"\n");
+             fs.appendFileSync("log.txt", "preview song: " + songs[i].preview_url +"\n");
              console.log("Album: " + songs[i].album.name);
-            // fs.appendFileSync("log.txt", "album: " + songs[i].album.name + "\n");
+             fs.appendFileSync("log.txt", "album: " + songs[i].album.name + "\n");
              console.log("Artist(s): " + songs[i].artists[0].name);
-            // fs.appendFileSync("log.txt", "artist(s): " + songs[i].artists[0].name + "\n");
+             fs.appendFileSync("log.txt", "artist(s): " + songs[i].artists[0].name + "\n");
              console.log("*****************************");  
-            // fs.appendFileSync("log.txt", "*****************************\n");
-             
-            /*
-            for (var i = 0; i < songs.length; i++) {
-                 console.log("**********SONG INFO*********");
-                 //fs.appendFileSync("log.txt", "**********SONG INFO*********\n");
-                 console.log(i);
-                 //fs.appendFileSync("log.txt", i +"\n");
-                 console.log("Song name: " + songs[i].name);
-                 //fs.appendFileSync("log.txt", "song name: " + songs[i].name +"\n");
-                 console.log("Preview song: " + songs[i].preview_url);
-                // fs.appendFileSync("log.txt", "preview song: " + songs[i].preview_url +"\n");
-                 console.log("Album: " + songs[i].album.name);
-                // fs.appendFileSync("log.txt", "album: " + songs[i].album.name + "\n");
-                 console.log("Artist(s): " + songs[i].artists[0].name);
-                // fs.appendFileSync("log.txt", "artist(s): " + songs[i].artists[0].name + "\n");
-                 console.log("*****************************");  
-                // fs.appendFileSync("log.txt", "*****************************\n");
-              } */
+             fs.appendFileSync("log.txt", "*****************************\n");
          }   
      );
  };
@@ -223,15 +226,21 @@ function moviethis()
                    console.log("HI THERE MOVIE WATCHER");
                    console.log("****** HERE IS THE RESULTS OF YOUR MOVIE INQUIRY *****")
                    console.log("Title: " + response.data.Title);
+                   fs.appendFileSync("log.txt", "Title: " + response.data.Title + "\n");
                    console.log("Release Year: " + response.data.Year);
+                   fs.appendFileSync("log.txt", "Release Year: " + response.data.Year + "\n");
                    console.log("IMDB Rating: " + response.data.imdbRating);
+                   fs.appendFileSync("log.txt", "IMDB Rating: " +  response.data.imdbRating + "\n");
                    console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
+                   fs.appendFileSync("log.txt", "Rotten Tomatoes Rating: " + response.data.Ratings[1].Value + "\n"); 
                    console.log("Country of Production: " + response.data.Country);     
-                  // fs.appendFileSync("log.txt", "Language: " + movies.Language + "\n");
+                   fs.appendFileSync("log.txt", "Country of Production: " + response.data.Country+ "\n");
+                   console.log("Language: " + response.data.Language);     
+                   fs.appendFileSync("log.txt", "Language: " + response.data.Language+ "\n");
                    console.log("Plot: " + response.data.Plot);
-                  // fs.appendFileSync("log.txt", "Plot: " + movies.Plot + "\n");
+                   fs.appendFileSync("log.txt", "Plot: " + response.data.Plot + "\n");
                    console.log("Actors: " + response.data.Actors);
-                 // fs.appendFileSync("log.txt", "Actors: " + movies.Actors + "\n");
+                   fs.appendFileSync("log.txt", "Actors: " + response.data.Actors + "\n");
               })
          .catch(function(error) 
               {
