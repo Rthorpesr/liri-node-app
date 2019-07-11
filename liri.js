@@ -84,17 +84,9 @@ function concertthis()
                         {
                              var date = response.data[i].datetime; //Saves datetime response into a variable
                              var date = moment(date).format("MM/DD/YYYY");
-                             //console.log ("@@@@@@@@@ DATE @@@");
-                             //console.log("DATE: " + date);
-                            // var concertResults = 
-                            // "-------------------------------------------------------------------" +
-                             //"\nVenue Name: " + response.data[i].venue.name + 
-                             //"\nVenue Location: " + response.data[i].venue.city +
-                            // "\nDate of the Event: " + date
-                            // console.log(concertResults);
-                               
+
                              console.log("********* CONCERT INFO*********");
-                             fs.appendFileSync("log.txt", "**********SONG INFO*********\n");
+                             fs.appendFileSync("log.txt", "**********CONCERT INFO*********\n");
                              console.log("Venue Name: " + response.data[i].venue.name);
                              fs.appendFileSync("log.txt", "Venue Name: " + response.data[i].venue.name+ "\n");
                              console.log("Venue Location: " + response.data[i].venue.city );
@@ -172,7 +164,6 @@ function spotifythissong()
  
              console.log("**********SONG INFO*********");
              fs.appendFileSync("log.txt", "**********SONG INFO*********\n");
-             console.log(i);
              fs.appendFileSync("log.txt", i +"\n");
              console.log("Song name: " + songs[i].name);
              fs.appendFileSync("log.txt", "song name: " + songs[i].name +"\n");
@@ -222,9 +213,8 @@ function moviethis()
               {
                    //console.log(queryUrl);
                   // console.log(response.data);
-                   console.log("");
-                   console.log("HI THERE MOVIE WATCHER");
-                   console.log("****** HERE IS THE RESULTS OF YOUR MOVIE INQUIRY *****")
+                   console.log("********* MOVIE INFO*********");
+                   fs.appendFileSync("log.txt", "********** MOVIE INFO*********\n");
                    console.log("Title: " + response.data.Title);
                    fs.appendFileSync("log.txt", "Title: " + response.data.Title + "\n");
                    console.log("Release Year: " + response.data.Year);
@@ -241,6 +231,8 @@ function moviethis()
                    fs.appendFileSync("log.txt", "Plot: " + response.data.Plot + "\n");
                    console.log("Actors: " + response.data.Actors);
                    fs.appendFileSync("log.txt", "Actors: " + response.data.Actors + "\n");
+                   console.log("*****************************");  
+                   fs.appendFileSync("log.txt", "*****************************\n");
               })
          .catch(function(error) 
               {
@@ -274,9 +266,33 @@ function moviethis()
     
 
 // If the "action" entered is "do-what-it-says" function is called...
-function dowhatitsays()
+
+function dowhatitsays() 
     {
-      console.log("dowhatitsays rtn " +value);
-    }
 
+         fs.readFile("random.txt", "utf8", function (err, data) 
+              {
+                   if (err) 
+                        {
+                             return console.log(err);
+                        }
+                   console.log()
 
+                   fs.appendFile("log.txt", "\n" + data, function (err) 
+                        {
+                             if (err) 
+                                  {
+                                       return console.log(err);      
+                                  } 
+                             else 
+                                  {
+                                       console.log("log.txt was updated");
+                        }
+ 
+         });
+ 
+ 
+ 
+        liri(data);
+     });
+ }
