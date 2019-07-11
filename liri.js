@@ -240,7 +240,7 @@ function moviethis()
                         {
                              // The request was made and the server responded with a status code
                              // that falls out of the range of 2xx
-                             console.log("Moviethis rtn " +value);
+                             console.log("Moviethis rtn " +movieName);
                              console.log("---------------Data---------------");
                              console.log(error.response.data);
                              console.log("---------------Status---------------");
@@ -269,7 +269,6 @@ function moviethis()
 
 function dowhatitsays() 
     {
-
          fs.readFile("random.txt", "utf8", function (err, data) 
               {
                    if (err) 
@@ -278,7 +277,8 @@ function dowhatitsays()
                         }
                    console.log()
 
-                   fs.appendFile("log.txt", "\n" + data, function (err) 
+                   fs.appendFile("log.txt", "\n" + data, function (err)
+   
                         {
                              if (err) 
                                   {
@@ -291,8 +291,8 @@ function dowhatitsays()
  
          });
  
- 
- 
-        liri(data);
+        console.log("Here is what is in data: " + data);
+        nodeArgs = data
+        spotifythissong(data);
      });
  }
