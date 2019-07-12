@@ -48,7 +48,7 @@ function concertthis()
          var bandName = "";
          nodeArgs = process.argv;
          /* Loop through all the words in the var nodeArg starting at index 3  
-            where  the band's Name will begin. Thi For loop strings Band names
+            where  the band's Name will begin. This For loop strings Band names
             together with the "plus" sign to seach for band names that are more
             that one name bands for the API query, 
             Example: if value = "Kool and the Gang" then BandName = "Kool+and+the+gang" 
@@ -201,7 +201,21 @@ function moviethis()
                             movieName += nodeArgs[i];
                         }
               }
+         
+         //console.log("what the blank: " + movieName);
 
+         function isEmptyOrSpaces(movieName)
+             {
+                  return movieName=== null || movieName.match(/^ *$/) !== null;
+             }
+         
+             if(isEmptyOrSpaces(movieName))
+               {
+                 console.log("inside the if");
+                 movieName ="Mr%20Nobody"
+               };
+
+          //console.log("after the blank: " + movieName);
          // Then run a request with axios to the OMDB API with the movie specified
          var queryUrl = "http://www.omdbapi.com/?t="+movieName+"&y=&plot=short&apikey=trilogy";
          
