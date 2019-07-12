@@ -17,7 +17,7 @@ var fs = require("fs");
 // The second will be the amount that will be added, withdrawn, etc.
 
 // Store all of the Command line arguments into an array
-var userSelection = process.argv; 
+var nodeArgs = process.argv; 
 var action = process.argv[2];
 
 // The switch-case will direct which function gets run.
@@ -44,9 +44,9 @@ switch (action)
 function concertthis()
     {
          console.log('Now in the Concert RTN at the top');
-         var nodeArgs = process.argv;
+         //var nodeArgs = process.argv;
          var bandName = "";
-
+         nodeArgs = process.argv;
          /* Loop through all the words in the var nodeArg starting at index 3  
             where  the band's Name will begin. Thi For loop strings Band names
             together with the "plus" sign to seach for band names that are more
@@ -59,10 +59,10 @@ function concertthis()
               {
                    if (i > 3 && i < nodeArgs.length)
                         {
-                          // console.log("the value of I: " +i);
+                           console.log("the value of I: " +i);
                             bandName = bandName + "+" + nodeArgs[i];
-                          //  console.log("nodeArgs[i] = " + nodeArgs[i]);
-                          //  console.log("BandName now: " + bandName);
+                            console.log("nodeArgs[i] = " + nodeArgs[i]);
+                            console.log("BandName now: " + bandName);
                             
                         } 
                    else 
@@ -131,7 +131,7 @@ function concertthis()
 function spotifythissong() 
     {
       console.log("at the top of function: spotifythissong rtn ");
-      var nodeArgs = process.argv;
+         nodeArgs = process.argv;
          console.log('My Song name is: ' + nodeArgs);
          var songName = "";
 
@@ -182,7 +182,7 @@ function spotifythissong()
 function moviethis() 
     {
          console.log('Now in the Movie This RTN at the top');
-         var nodeArgs = process.argv;
+         nodeArgs = process.argv;
          console.log('My movie name is: ' + nodeArgs);
          var movieName = "";
          /* Loop through all the words in the var "value"  
@@ -276,7 +276,6 @@ function dowhatitsays()
                              return console.log(err);
                         }
                    console.log()
-
                    fs.appendFile("log.txt", "\n" + data, function (err)
    
                         {
@@ -288,11 +287,41 @@ function dowhatitsays()
                                   {
                                        console.log("log.txt was updated");
                         }
- 
-         });
- 
-        console.log("Here is what is in data: " + data);
-        nodeArgs = data
-        spotifythissong(data);
+              });
+
+         var RandomtxtArr = data.split(",");
+
+           //   userCommand = textArr[0];
+      
+           //   userInput = textArr[1];
+        // process.argv = data;
+         console.log("Here is what is in data: " + data);
+         
+
+        // var action = process.argv[2];
+         process.argv[2] = RandomtxtArr[0];
+
+         for (i = 1; i < RandomtxtArr.length; i++)
+             {
+               process.argv.push(RandomtxtArr[i]);
+             }
+
+         console.log("hey Thorpe, the value of Process.argv: " + process.argv);
+          switch (process.argv[2]) 
+              {
+                 case "concert-this":
+                         concertthis();
+                         break;
+                       
+                       case "spotify-this-song":
+                         spotifythissong();
+                         break;
+                       
+                       case "movie-this":
+                         moviethis();
+                         break;
+              }
+
+         
      });
  }
