@@ -17,8 +17,13 @@ var fs = require("fs");
 // The second will be the amount that will be added, withdrawn, etc.
 
 // Store all of the Command line arguments into an array
-var nodeArgs = process.argv; 
+var nodeArgs = process.argv;
+//console.log("1.) What is in Process.argv: " + process.argv);
+//console.log("2.) What is in nodeArgvs: " + nodeArgs); 
+//console.log("3.) What is in Process.argv[2]: " + process.argv[2]); 
 var action = process.argv[2];
+//console.log("5.) What is in Action: " + action); 
+var nextUserInput = "";
 
 // The switch-case will direct which function gets run.
 switch (action) 
@@ -43,27 +48,27 @@ switch (action)
 // If the "action" entered is "concert-this" function is called...
 function concertthis()
     {
-         console.log('Now in the Concert RTN at the top');
-         //var nodeArgs = process.argv;
+         //console.log("** Concert RTN at the top **");
          var bandName = "";
-         nodeArgs = process.argv;
+         //console.log("Concert-this bandName:" + bandName);
          /* Loop through all the words in the var nodeArg starting at index 3  
             where  the band's Name will begin. This For loop strings Band names
             together with the "plus" sign to seach for band names that are more
             that one name bands for the API query, 
             Example: if value = "Kool and the Gang" then BandName = "Kool+and+the+gang" 
          */
-        console.log("begin for loop to extract band name: " +nodeArgs);
-        console.log("the nodeArgs length is " + nodeArgs.length);
+       // console.log("begin for loop to extract band name from nodeArgs: " + nodeArgs);
+      //  console.log("the nodeArgs length is " + nodeArgs.length);
          
            for (var i = 3; i < nodeArgs.length; i++) 
               {
                    if (i > 3 && i < nodeArgs.length)
                         {
-                           console.log("the value of I: " +i);
-                            bandName = bandName + "+" + nodeArgs[i];
-                            console.log("nodeArgs[i] = " + nodeArgs[i]);
-                            console.log("BandName now: " + bandName);
+                           //console.log("1. Loop - the value of I: " +i);
+                          // console.log("2. Loop - nodeArgs[i]: " + nodeArgs[i]); 
+                           bandName = bandName + " " + nodeArgs[i];
+                           // console.log("3. Loop - inside for loop, bandName = " + bandName);
+                           // console.log("4. Loop - BandName now: " + bandName);
                             
                         } 
                    else 
@@ -71,14 +76,13 @@ function concertthis()
                              bandName += nodeArgs[i];
                         }
               }
-         console.log("after the for loop the band name is: " + bandName);
-         
+         //console.log("AFTER LOOP 1 - the band name is: " + bandName);
+         //console.log("AFTER LOOP 2 - the queryUrl is: " + queryUrl);
          // Then run a request with axios to the OMDB API with the movie specified
          var queryUrl = "https://rest.bandsintown.com/artists/"+bandName + "/events?app_id=codingbootcamp" 
 
          // This line is just to help us debug against the actual URL.
-         console.log("++++++++++++ HERE IS THE QUERYURL FOR  ++++++++++++: " + queryUrl);
-
+         //console.log("AFTER LOOP 3 - the queryUrl is: " + queryUrl);
          axios.get(queryUrl).then(
          function(response) 
               {
@@ -132,18 +136,22 @@ function concertthis()
 // If the "action" entered is "spotify-this-song" function is called...
 function spotifythissong() 
     {
-      console.log("at the top of function: spotifythissong rtn ");
-         nodeArgs = process.argv;
-         console.log('My Song name is: ' + nodeArgs);
+      //console.log("** SPOTIFY RTN at the top **");
+
+         //console.log("SPOTIFY- 1.) The value in nodeArgs: " + nodeArgs);
          var songName = "";
+         //console.log("SPOTIFY - 2.) The value in songName : " + songName );
+         //console.log("SPOTIFY - 3.) The nodeArgs length is " + nodeArgs.length);
+        // console.log("SPOTIFY - 4.) The LOOP: ");
 
          for (var i = 3; i < nodeArgs.length; i++) 
          {
               if (i > 3 && i < nodeArgs.length) 
                    {
-                        console.log("spotify i value: " + i);
+                       // console.log("1. Loop - the value of I: " +i);
+                       // console.log("2. Loop - nodeArgs[i]: " + nodeArgs[i]);
                         songName = songName + " " + nodeArgs[i];
-                        console.log("songName = " + songName);
+                       // console.log("3. Loop - songName now: " + songName);
                    } 
               else 
                    {
@@ -151,7 +159,7 @@ function spotifythissong()
                    }
          }
             
-         console.log('%%%%%%%%% - here is what is in songName:' +songName);
+         //console.log('SPOTIFY QUERY USING songName: ' + songName);
                spotify.search(
                {
                     type: "track",
@@ -183,28 +191,33 @@ function spotifythissong()
 // If the "action" entered is "movie-this" function is called...
 function moviethis() 
     {
-         console.log('Now in the Movie This RTN at the top');
-         nodeArgs = process.argv;
-         console.log('My movie name is: ' + nodeArgs);
+         //console.log("** MOVIE RTN at the top **");
          var movieName = "";
+         //console.log("Concert-this movieName:" + movieName);     
          /* Loop through all the words in the var "value"  
             For loop strings movie names that are mutliple words for API query.
             for example: if value = "All the Presidents Men"
             the var movieName would = "All+the+President's+Men" 
          */
+
+        //console.log("begin for loop to extract movie name from nodeArgs: " + nodeArgs);
+       // console.log("the nodeArgs length is " + nodeArgs.length);
+
          for (var i = 3; i < nodeArgs.length; i++) 
               {
                    if (i > 3 && i < nodeArgs.length) 
                         {
+                            // console.log("1. Loop - the value of I: " +i);
+                            // console.log("2. Loop - nodeArgs[i]: " + nodeArgs[i]); 
                              movieName = movieName + " " + nodeArgs[i];
+                            // console.log("3. Loop - inside for loop, movieName = " + movieName);
+                            // console.log("4. Loop - movieName now: " + movieName);
                         } 
                    else 
                         {
                             movieName += nodeArgs[i];
                         }
               }
-         
-         //console.log("what the blank: " + movieName);
 
          function isEmptyOrSpaces(movieName)
              {
@@ -214,15 +227,16 @@ function moviethis()
              if(isEmptyOrSpaces(movieName))
                {
                  console.log("inside the if");
-                 movieName ="Mr%20Nobody"
+                 movieName ="Mr Nobody"
                };
 
-          //console.log("after the blank: " + movieName);
+         //console.log("AFTER LOOP 1 - the movieName  is: " + movieName );
+         //console.log("AFTER LOOP 2 - the queryUrl is: " + queryUrl);
          // Then run a request with axios to the OMDB API with the movie specified
          var queryUrl = "http://www.omdbapi.com/?t="+movieName+"&y=&plot=short&apikey=trilogy";
          
          // This line is just to help us debug against the actual URL.
-         //console.log(queryUrl);
+         //console.log("AFTER LOOP 3 - the queryUrl is: " + queryUrl);
 
          axios.get(queryUrl).then(
          function(response) 
@@ -285,15 +299,16 @@ function moviethis()
 
 function dowhatitsays() 
     {
+         console.log("** DO WHAT IT SAYS RTN at the top **");
          fs.readFile("random.txt", "utf8", function (err, data) 
               {
                    if (err) 
                         {
                              return console.log(err);
                         }
+
                    console.log()
                    fs.appendFile("log.txt", "\n" + data, function (err)
-   
                         {
                              if (err) 
                                   {
@@ -305,13 +320,36 @@ function dowhatitsays()
                         }
               });      
 
-     
-         
-         // var action = process.argv[2];
-         process.argv[2] = 'RandomtxtArr[0]';
-         
+             // console.log("DO - 1.) the value of Process.argv: " + process.argv);
+             // console.log("DO - 2.) what is the value of nodeArgs: " + nodeArgs);
+             // console.log("DO - 3.) what is the nodeArgs length? " + nodeArgs.length);
+             // console.log("DO - 4.) The value in data before the replace: " + data);
+              data = data.replace(/["']/g, "");
+              data = data.split(/[ ,]+/).join(',')
+            //  console.log("DO - 5.) The contents of dataArr after the replace: " + data);
+            //  console.log("DO - 6.) The value of process.argv[2]: " + process.argv[2]);
+              dataArr = new Array(); 
+   
+
+              dataArr = data.split(",");
+
+            //  console.log("THE dataArr.length is:" + dataArr.length);
+
             
-         console.log("hey Thorpe, the value of Process.argv: " + process.argv);
+
+            //  console.log("DO - 7.) The value in dataArr[0]: " + dataArr[0]);
+              process.argv[2] = dataArr[0];
+              
+              for (i = 1; i < dataArr.length; i++)
+                   { 
+                        process.argv.push(dataArr[i]);
+                   }
+      
+            //  console.log("DO - 8.) The value of dataArr[1]: " + dataArr[1]);
+            //  console.log("DO - 9.) The value of Process.argv: " + process.argv);
+      
+        // nextUserInput = userInput.replace(/%20/g, " ");
+
           switch (process.argv[2]) 
               {
                  case "concert-this":
