@@ -1508,3 +1508,1262 @@ concert-this,"Little River Band"
 concert-this,"Little River Band"
 
 
+
+concert-this,"Little River Band"
+
+
+**********CONCERT INFO*********
+Venue Name: Bernies Beach Bar
+Venue Location: Hampton
+Date of the Event: 07/13/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Birchmere
+Venue Location: Alexandria
+Date of the Event: 07/14/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Schermerhorn Symphony Center
+Venue Location: Nashville
+Date of the Event: 07/19/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Tennessee Theatre
+Venue Location: Knoxville
+Date of the Event: 07/20/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Lane County Fairgrounds
+Venue Location: Eugene
+Date of the Event: 07/25/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Ratiopharm Arena
+Venue Location: Neu Ulm
+Date of the Event: 08/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Historische Stadthalle Wuppertal GmbH
+Venue Location: Buckow-west
+Date of the Event: 08/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Parktheater Plauen
+Venue Location: Plauen
+Date of the Event: 08/03/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Kultur- und Kongresszentrum Liederhalle
+Venue Location: Stuttgart
+Date of the Event: 08/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Hot August Nights
+Venue Location: Reno
+Date of the Event: 08/08/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Woodstock Summer Concert Series
+Venue Location: Woodstock
+Date of the Event: 08/10/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Keswick Theatre
+Venue Location: Glenside
+Date of the Event: 08/15/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: GM Renaissance Center
+Venue Location: Detroit
+Date of the Event: 08/16/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Pabst Theater
+Venue Location: Milwaukee
+Date of the Event: 08/17/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Casino Pauma
+Venue Location: Pauma Valley
+Date of the Event: 08/29/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Rivers Casino & Resort Schenectady
+Venue Location: Schenectady
+Date of the Event: 09/07/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Stafford Centre
+Venue Location: Stafford
+Date of the Event: 09/19/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Southeast Mo District Fair
+Venue Location: Cape Girardeau
+Date of the Event: 09/29/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Horseshoe Bossier City
+Venue Location: Bossier City
+Date of the Event: 10/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: River City Casino
+Venue Location: Saint Louis
+Date of the Event: 10/05/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Midland Theatre
+Venue Location: Newark
+Date of the Event: 10/06/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Penn's Peak
+Venue Location: Jim Thorpe
+Date of the Event: 10/18/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: PRIVATE Marriott Hotel and Conference Center
+Venue Location: Odessa
+Date of the Event: 10/24/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Sugar Creek Casino
+Venue Location: Hinton
+Date of the Event: 10/26/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Clyde
+Venue Location: Fort Wayne
+Date of the Event: 11/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Medina Entertainment Center
+Venue Location: Medina
+Date of the Event: 11/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Maxwell C. King Center for the Performing Arts
+Venue Location: Melbourne
+Date of the Event: 11/23/2019
+*****************************
+
+concert-this,"Little River Band"
+
+
+**********CONCERT INFO*********
+Venue Name: Bernies Beach Bar
+Venue Location: Hampton
+Date of the Event: 07/13/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Birchmere
+Venue Location: Alexandria
+Date of the Event: 07/14/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Schermerhorn Symphony Center
+Venue Location: Nashville
+Date of the Event: 07/19/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Tennessee Theatre
+Venue Location: Knoxville
+Date of the Event: 07/20/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Lane County Fairgrounds
+Venue Location: Eugene
+Date of the Event: 07/25/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Ratiopharm Arena
+Venue Location: Neu Ulm
+Date of the Event: 08/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Historische Stadthalle Wuppertal GmbH
+Venue Location: Buckow-west
+Date of the Event: 08/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Parktheater Plauen
+Venue Location: Plauen
+Date of the Event: 08/03/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Kultur- und Kongresszentrum Liederhalle
+Venue Location: Stuttgart
+Date of the Event: 08/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Hot August Nights
+Venue Location: Reno
+Date of the Event: 08/08/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Woodstock Summer Concert Series
+Venue Location: Woodstock
+Date of the Event: 08/10/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Keswick Theatre
+Venue Location: Glenside
+Date of the Event: 08/15/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: GM Renaissance Center
+Venue Location: Detroit
+Date of the Event: 08/16/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Pabst Theater
+Venue Location: Milwaukee
+Date of the Event: 08/17/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Casino Pauma
+Venue Location: Pauma Valley
+Date of the Event: 08/29/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Rivers Casino & Resort Schenectady
+Venue Location: Schenectady
+Date of the Event: 09/07/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Stafford Centre
+Venue Location: Stafford
+Date of the Event: 09/19/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Southeast Mo District Fair
+Venue Location: Cape Girardeau
+Date of the Event: 09/29/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Horseshoe Bossier City
+Venue Location: Bossier City
+Date of the Event: 10/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: River City Casino
+Venue Location: Saint Louis
+Date of the Event: 10/05/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Midland Theatre
+Venue Location: Newark
+Date of the Event: 10/06/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Penn's Peak
+Venue Location: Jim Thorpe
+Date of the Event: 10/18/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: PRIVATE Marriott Hotel and Conference Center
+Venue Location: Odessa
+Date of the Event: 10/24/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Sugar Creek Casino
+Venue Location: Hinton
+Date of the Event: 10/26/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Clyde
+Venue Location: Fort Wayne
+Date of the Event: 11/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Medina Entertainment Center
+Venue Location: Medina
+Date of the Event: 11/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Maxwell C. King Center for the Performing Arts
+Venue Location: Melbourne
+Date of the Event: 11/23/2019
+*****************************
+
+concert-this,"Little River Band"
+
+
+**********CONCERT INFO*********
+Venue Name: Bernies Beach Bar
+Venue Location: Hampton
+Date of the Event: 07/13/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Birchmere
+Venue Location: Alexandria
+Date of the Event: 07/14/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Schermerhorn Symphony Center
+Venue Location: Nashville
+Date of the Event: 07/19/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Tennessee Theatre
+Venue Location: Knoxville
+Date of the Event: 07/20/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Lane County Fairgrounds
+Venue Location: Eugene
+Date of the Event: 07/25/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Ratiopharm Arena
+Venue Location: Neu Ulm
+Date of the Event: 08/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Historische Stadthalle Wuppertal GmbH
+Venue Location: Buckow-west
+Date of the Event: 08/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Parktheater Plauen
+Venue Location: Plauen
+Date of the Event: 08/03/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Kultur- und Kongresszentrum Liederhalle
+Venue Location: Stuttgart
+Date of the Event: 08/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Hot August Nights
+Venue Location: Reno
+Date of the Event: 08/08/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Woodstock Summer Concert Series
+Venue Location: Woodstock
+Date of the Event: 08/10/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Keswick Theatre
+Venue Location: Glenside
+Date of the Event: 08/15/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: GM Renaissance Center
+Venue Location: Detroit
+Date of the Event: 08/16/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Pabst Theater
+Venue Location: Milwaukee
+Date of the Event: 08/17/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Casino Pauma
+Venue Location: Pauma Valley
+Date of the Event: 08/29/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Rivers Casino & Resort Schenectady
+Venue Location: Schenectady
+Date of the Event: 09/07/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Stafford Centre
+Venue Location: Stafford
+Date of the Event: 09/19/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Southeast Mo District Fair
+Venue Location: Cape Girardeau
+Date of the Event: 09/29/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Horseshoe Bossier City
+Venue Location: Bossier City
+Date of the Event: 10/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: River City Casino
+Venue Location: Saint Louis
+Date of the Event: 10/05/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Midland Theatre
+Venue Location: Newark
+Date of the Event: 10/06/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Penn's Peak
+Venue Location: Jim Thorpe
+Date of the Event: 10/18/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: PRIVATE Marriott Hotel and Conference Center
+Venue Location: Odessa
+Date of the Event: 10/24/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Sugar Creek Casino
+Venue Location: Hinton
+Date of the Event: 10/26/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Clyde
+Venue Location: Fort Wayne
+Date of the Event: 11/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Medina Entertainment Center
+Venue Location: Medina
+Date of the Event: 11/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Maxwell C. King Center for the Performing Arts
+Venue Location: Melbourne
+Date of the Event: 11/23/2019
+*****************************
+
+concert-this,"Little River Band"
+
+
+**********CONCERT INFO*********
+Venue Name: Bernies Beach Bar
+Venue Location: Hampton
+Date of the Event: 07/13/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Birchmere
+Venue Location: Alexandria
+Date of the Event: 07/14/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Schermerhorn Symphony Center
+Venue Location: Nashville
+Date of the Event: 07/19/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Tennessee Theatre
+Venue Location: Knoxville
+Date of the Event: 07/20/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Lane County Fairgrounds
+Venue Location: Eugene
+Date of the Event: 07/25/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Ratiopharm Arena
+Venue Location: Neu Ulm
+Date of the Event: 08/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Historische Stadthalle Wuppertal GmbH
+Venue Location: Buckow-west
+Date of the Event: 08/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Parktheater Plauen
+Venue Location: Plauen
+Date of the Event: 08/03/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Kultur- und Kongresszentrum Liederhalle
+Venue Location: Stuttgart
+Date of the Event: 08/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Hot August Nights
+Venue Location: Reno
+Date of the Event: 08/08/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Woodstock Summer Concert Series
+Venue Location: Woodstock
+Date of the Event: 08/10/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Keswick Theatre
+Venue Location: Glenside
+Date of the Event: 08/15/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: GM Renaissance Center
+Venue Location: Detroit
+Date of the Event: 08/16/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Pabst Theater
+Venue Location: Milwaukee
+Date of the Event: 08/17/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Casino Pauma
+Venue Location: Pauma Valley
+Date of the Event: 08/29/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Rivers Casino & Resort Schenectady
+Venue Location: Schenectady
+Date of the Event: 09/07/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Stafford Centre
+Venue Location: Stafford
+Date of the Event: 09/19/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Southeast Mo District Fair
+Venue Location: Cape Girardeau
+Date of the Event: 09/29/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Horseshoe Bossier City
+Venue Location: Bossier City
+Date of the Event: 10/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: River City Casino
+Venue Location: Saint Louis
+Date of the Event: 10/05/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Midland Theatre
+Venue Location: Newark
+Date of the Event: 10/06/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Penn's Peak
+Venue Location: Jim Thorpe
+Date of the Event: 10/18/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: PRIVATE Marriott Hotel and Conference Center
+Venue Location: Odessa
+Date of the Event: 10/24/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Sugar Creek Casino
+Venue Location: Hinton
+Date of the Event: 10/26/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Clyde
+Venue Location: Fort Wayne
+Date of the Event: 11/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Medina Entertainment Center
+Venue Location: Medina
+Date of the Event: 11/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Maxwell C. King Center for the Performing Arts
+Venue Location: Melbourne
+Date of the Event: 11/23/2019
+*****************************
+
+concert-this,"beach boys"
+
+
+**********CONCERT INFO*********
+Venue Name: Bernies Beach Bar
+Venue Location: Hampton
+Date of the Event: 07/13/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Birchmere
+Venue Location: Alexandria
+Date of the Event: 07/14/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Schermerhorn Symphony Center
+Venue Location: Nashville
+Date of the Event: 07/19/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Tennessee Theatre
+Venue Location: Knoxville
+Date of the Event: 07/20/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Lane County Fairgrounds
+Venue Location: Eugene
+Date of the Event: 07/25/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Ratiopharm Arena
+Venue Location: Neu Ulm
+Date of the Event: 08/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Historische Stadthalle Wuppertal GmbH
+Venue Location: Buckow-west
+Date of the Event: 08/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Parktheater Plauen
+Venue Location: Plauen
+Date of the Event: 08/03/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Kultur- und Kongresszentrum Liederhalle
+Venue Location: Stuttgart
+Date of the Event: 08/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Hot August Nights
+Venue Location: Reno
+Date of the Event: 08/08/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Woodstock Summer Concert Series
+Venue Location: Woodstock
+Date of the Event: 08/10/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Keswick Theatre
+Venue Location: Glenside
+Date of the Event: 08/15/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: GM Renaissance Center
+Venue Location: Detroit
+Date of the Event: 08/16/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Pabst Theater
+Venue Location: Milwaukee
+Date of the Event: 08/17/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Casino Pauma
+Venue Location: Pauma Valley
+Date of the Event: 08/29/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Rivers Casino & Resort Schenectady
+Venue Location: Schenectady
+Date of the Event: 09/07/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Stafford Centre
+Venue Location: Stafford
+Date of the Event: 09/19/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Southeast Mo District Fair
+Venue Location: Cape Girardeau
+Date of the Event: 09/29/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Horseshoe Bossier City
+Venue Location: Bossier City
+Date of the Event: 10/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: River City Casino
+Venue Location: Saint Louis
+Date of the Event: 10/05/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Midland Theatre
+Venue Location: Newark
+Date of the Event: 10/06/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Penn's Peak
+Venue Location: Jim Thorpe
+Date of the Event: 10/18/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: PRIVATE Marriott Hotel and Conference Center
+Venue Location: Odessa
+Date of the Event: 10/24/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Sugar Creek Casino
+Venue Location: Hinton
+Date of the Event: 10/26/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Clyde
+Venue Location: Fort Wayne
+Date of the Event: 11/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Medina Entertainment Center
+Venue Location: Medina
+Date of the Event: 11/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Maxwell C. King Center for the Performing Arts
+Venue Location: Melbourne
+Date of the Event: 11/23/2019
+*****************************
+
+concert-this,"Kool and the gang"
+
+
+**********CONCERT INFO*********
+Venue Name: Bernies Beach Bar
+Venue Location: Hampton
+Date of the Event: 07/13/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Birchmere
+Venue Location: Alexandria
+Date of the Event: 07/14/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Schermerhorn Symphony Center
+Venue Location: Nashville
+Date of the Event: 07/19/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Tennessee Theatre
+Venue Location: Knoxville
+Date of the Event: 07/20/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Lane County Fairgrounds
+Venue Location: Eugene
+Date of the Event: 07/25/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Ratiopharm Arena
+Venue Location: Neu Ulm
+Date of the Event: 08/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Historische Stadthalle Wuppertal GmbH
+Venue Location: Buckow-west
+Date of the Event: 08/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Parktheater Plauen
+Venue Location: Plauen
+Date of the Event: 08/03/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Kultur- und Kongresszentrum Liederhalle
+Venue Location: Stuttgart
+Date of the Event: 08/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Hot August Nights
+Venue Location: Reno
+Date of the Event: 08/08/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Woodstock Summer Concert Series
+Venue Location: Woodstock
+Date of the Event: 08/10/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Keswick Theatre
+Venue Location: Glenside
+Date of the Event: 08/15/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: GM Renaissance Center
+Venue Location: Detroit
+Date of the Event: 08/16/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Pabst Theater
+Venue Location: Milwaukee
+Date of the Event: 08/17/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Casino Pauma
+Venue Location: Pauma Valley
+Date of the Event: 08/29/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Rivers Casino & Resort Schenectady
+Venue Location: Schenectady
+Date of the Event: 09/07/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Stafford Centre
+Venue Location: Stafford
+Date of the Event: 09/19/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Southeast Mo District Fair
+Venue Location: Cape Girardeau
+Date of the Event: 09/29/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Horseshoe Bossier City
+Venue Location: Bossier City
+Date of the Event: 10/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: River City Casino
+Venue Location: Saint Louis
+Date of the Event: 10/05/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Midland Theatre
+Venue Location: Newark
+Date of the Event: 10/06/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Penn's Peak
+Venue Location: Jim Thorpe
+Date of the Event: 10/18/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: PRIVATE Marriott Hotel and Conference Center
+Venue Location: Odessa
+Date of the Event: 10/24/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Sugar Creek Casino
+Venue Location: Hinton
+Date of the Event: 10/26/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Clyde
+Venue Location: Fort Wayne
+Date of the Event: 11/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Medina Entertainment Center
+Venue Location: Medina
+Date of the Event: 11/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Maxwell C. King Center for the Performing Arts
+Venue Location: Melbourne
+Date of the Event: 11/23/2019
+*****************************
+
+concert-this,"Kool and the gang"
+
+
+**********CONCERT INFO*********
+
+concert-this,"Kool and the gang"
+
+
+
+concert-this,"Kool and the gang"
+
+
+**********CONCERT INFO*********
+Venue Name: Foynhagen
+Venue Location: Tønsberg
+Date of the Event: 07/10/2019
+*****************************
+
+concert-this,"Kool and the gang"
+
+
+
+concert-this,"Kool and the gang"
+
+
+**********CONCERT INFO*********
+Venue Name: Foynhagen
+Venue Location: Tønsberg
+Date of the Event: 07/10/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Foynhagen
+Venue Location: Tønsberg
+Date of the Event: 07/10/2019
+*****************************
+
+concert-this,"Kool and the gang"
+
+
+**********CONCERT INFO*********
+Venue Name: Foynhagen
+Venue Location: Tønsberg
+Date of the Event: 07/10/2019
+*****************************
+
+concert-this,"Kool and the gang"
+
+
+
+concert-this,"Kool and the gang"
+
+
+**********CONCERT INFO*********
+**********CONCERT INFO*********
+Venue Name: Bernies Beach Bar
+Venue Location: Hampton
+Date of the Event: 07/13/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Birchmere
+Venue Location: Alexandria
+Date of the Event: 07/14/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Schermerhorn Symphony Center
+Venue Location: Nashville
+Date of the Event: 07/19/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Tennessee Theatre
+Venue Location: Knoxville
+Date of the Event: 07/20/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Lane County Fairgrounds
+Venue Location: Eugene
+Date of the Event: 07/25/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Ratiopharm Arena
+Venue Location: Neu Ulm
+Date of the Event: 08/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Historische Stadthalle Wuppertal GmbH
+Venue Location: Buckow-west
+Date of the Event: 08/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Parktheater Plauen
+Venue Location: Plauen
+Date of the Event: 08/03/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Kultur- und Kongresszentrum Liederhalle
+Venue Location: Stuttgart
+Date of the Event: 08/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Hot August Nights
+Venue Location: Reno
+Date of the Event: 08/08/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Woodstock Summer Concert Series
+Venue Location: Woodstock
+Date of the Event: 08/10/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Keswick Theatre
+Venue Location: Glenside
+Date of the Event: 08/15/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: GM Renaissance Center
+Venue Location: Detroit
+Date of the Event: 08/16/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Pabst Theater
+Venue Location: Milwaukee
+Date of the Event: 08/17/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Casino Pauma
+Venue Location: Pauma Valley
+Date of the Event: 08/29/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Rivers Casino & Resort Schenectady
+Venue Location: Schenectady
+Date of the Event: 09/07/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Stafford Centre
+Venue Location: Stafford
+Date of the Event: 09/19/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Southeast Mo District Fair
+Venue Location: Cape Girardeau
+Date of the Event: 09/29/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Horseshoe Bossier City
+Venue Location: Bossier City
+Date of the Event: 10/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: River City Casino
+Venue Location: Saint Louis
+Date of the Event: 10/05/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Midland Theatre
+Venue Location: Newark
+Date of the Event: 10/06/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Penn's Peak
+Venue Location: Jim Thorpe
+Date of the Event: 10/18/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: PRIVATE Marriott Hotel and Conference Center
+Venue Location: Odessa
+Date of the Event: 10/24/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Sugar Creek Casino
+Venue Location: Hinton
+Date of the Event: 10/26/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Clyde
+Venue Location: Fort Wayne
+Date of the Event: 11/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Medina Entertainment Center
+Venue Location: Medina
+Date of the Event: 11/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Maxwell C. King Center for the Performing Arts
+Venue Location: Melbourne
+Date of the Event: 11/23/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Starlite, La Cantera de Marbella
+Venue Location: Marbella
+Date of the Event: 07/11/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Jardines de Pedralbes
+Venue Location: Barcelona
+Date of the Event: 07/12/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: SPORTING MONTE-CARLO S. DES ETOILES
+Venue Location: Monaco-ville
+Date of the Event: 07/13/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Verti Music Hall
+Venue Location: Berlin
+Date of the Event: 07/16/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Freilichtbühne Großer Garten Junge Garde
+Venue Location: Dresden-gittersee
+Date of the Event: 07/17/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Freilichtbühne Peißnitz
+Venue Location: Schwarzenbach An Der Saale
+Date of the Event: 07/19/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Circus - Krone - Bau
+Venue Location: Munchen
+Date of the Event: 07/20/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Kultur- und Kongresszentrum Liederhalle
+Venue Location: Stuttgart
+Date of the Event: 07/21/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Zelt-Musik-Festival, Zirkuszelt
+Venue Location: Freiburg Im Breisgau
+Date of the Event: 07/22/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Biltmore
+Venue Location: Asheville
+Date of the Event: 07/25/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Hard Rock Live at Etess Arena
+Venue Location: Atlantic City
+Date of the Event: 07/27/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Solberg Airport
+Venue Location: Whitehouse Station
+Date of the Event: 07/28/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Frederik Meijer Gardens
+Venue Location: Grand Rapids
+Date of the Event: 08/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Silver Creek Event Center at Four Winds New Buffalo
+Venue Location: New Buffalo
+Date of the Event: 08/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Ravinia
+Venue Location: Highland Park
+Date of the Event: 08/03/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Ravinia
+Venue Location: Highland Park
+Date of the Event: 08/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Hampton Beach Casino Ballroom
+Venue Location: Hampton Beach
+Date of the Event: 08/14/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Boarding House Park
+Venue Location: Lowell
+Date of the Event: 08/15/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Bold Point Park
+Venue Location: East Providence
+Date of the Event: 08/16/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Simsbury Performing Arts Center
+Venue Location: Simsbury
+Date of the Event: 08/17/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Ridgefield Playhouse
+Venue Location: Ridgefield
+Date of the Event: 08/18/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Chautauqua Amphitheater
+Venue Location: Chautauqua
+Date of the Event: 08/21/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Constellation Brands Performing Arts Center CMAC
+Venue Location: Canandaigua
+Date of the Event: 08/22/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: American Music Theatre
+Venue Location: Lancaster
+Date of the Event: 08/23/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Freeman Stage at Bayside
+Venue Location: Selbyville
+Date of the Event: 08/24/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Filene Center at Wolf Trap
+Venue Location: Vienna
+Date of the Event: 08/25/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Colorado State Fair
+Venue Location: Pueblo
+Date of the Event: 08/29/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: South Dakota State Fair Grandstand
+Venue Location: Huron
+Date of the Event: 08/30/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Pavilion At the Oregon State Fairgrounds
+Venue Location: Salem
+Date of the Event: 08/31/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: PNE Amphitheatre
+Venue Location: Vancouver
+Date of the Event: 09/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Puyallup Fairgrounds
+Venue Location: Puyallup
+Date of the Event: 09/02/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Britt Festival Pavilion
+Venue Location: Jacksonville
+Date of the Event: 09/04/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Thunder Valley Casino Resort
+Venue Location: Lincoln
+Date of the Event: 09/06/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Rodney Strong Vineyards
+Venue Location: Healdsburg
+Date of the Event: 09/07/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Mountain Winery
+Venue Location: Saratoga
+Date of the Event: 09/08/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Humphreys Concerts By the Bay
+Venue Location: San Diego
+Date of the Event: 10/16/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Humphreys Concerts By the Bay
+Venue Location: San Diego
+Date of the Event: 10/17/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: The Paramount
+Venue Location: Huntington
+Date of the Event: 10/20/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Edgewater E Center
+Venue Location: Laughlin
+Date of the Event: 11/30/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: McCallum Theatre
+Venue Location: Palm Desert
+Date of the Event: 12/01/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Thousand Oaks Civic Arts Plaza
+Venue Location: Thousand Oaks
+Date of the Event: 12/07/2019
+*****************************
+**********CONCERT INFO*********
+Venue Name: Ruth Eckerd Hall
+Venue Location: Clearwater
+Date of the Event: 02/15/2020
+*****************************
+**********CONCERT INFO*********
+Venue Name: Dr. Phillips Center for the Performing Arts
+Venue Location: Orlando
+Date of the Event: 02/19/2020
+*****************************
+**********CONCERT INFO*********
+Venue Name: Coral Springs Center for the Arts
+Venue Location: Coral Springs
+Date of the Event: 02/21/2020
+*****************************
+
+concert-this,"Kool and the gang"
+
+
+
+concert-this,"Kool and the gang"
+
+
+
+concert-this,"Kool and the gang"
+
+
+
+spotify-this-song,"I Want it That Way"
+
+
