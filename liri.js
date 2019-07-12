@@ -309,12 +309,16 @@ function dowhatitsays()
       
            //   userInput = textArr[1];
         // process.argv = data;
-         console.log("Here is what is in data: " + data);
-         
-
+         console.log("Here is what is in RandomtxtArr: " + RandomtxtArr[1]);
+         var myband = RandomtxtArr[1];
+         console.log("Here is what is in myband: " + myband);
+         myband = myband.replace(/["']/g, ""); 
+         console.log("Here is what is in myband: " + myband);
+         myband = myband.replace(/[\s,]+/g, ',');
+          console.log("Here is what is in myband: " + myband);
         // var action = process.argv[2];
          process.argv[2] = RandomtxtArr[0];
-
+         
          for (i = 1; i < RandomtxtArr.length; i++)
              {
                process.argv.push(RandomtxtArr[i]);
