@@ -73,7 +73,6 @@ function concertthis()
               }
          console.log("after the for loop the band name is: " + bandName);
          
-        
          // Then run a request with axios to the OMDB API with the movie specified
          var queryUrl = "https://rest.bandsintown.com/artists/"+bandName + "/events?app_id=codingbootcamp" 
 
@@ -143,7 +142,7 @@ function spotifythissong()
               if (i > 3 && i < nodeArgs.length) 
                    {
                         console.log("spotify i value: " + i);
-                        songName = songName + "+" + nodeArgs[i];
+                        songName = songName + " " + nodeArgs[i];
                         console.log("songName = " + songName);
                    } 
               else 
@@ -197,7 +196,7 @@ function moviethis()
               {
                    if (i > 3 && i < nodeArgs.length) 
                         {
-                             movieName = movieName + "+" + nodeArgs[i];
+                             movieName = movieName + " " + nodeArgs[i];
                         } 
                    else 
                         {
@@ -304,34 +303,13 @@ function dowhatitsays()
                                   {
                                        console.log("log.txt was updated");
                         }
-              });
+              });      
 
-         var datastr = data.split(",");
-
-         
-         console.log("Here is datastr: " + datastr);
-
-         var ar = data.split(', '); // split string on comma space
-         console.log("look at the new array: " + ar);
-
-          
-         console.log("Here is what is in myband: " + myband);
-         myband = myband.replace(/["']/g, ""); 
-         console.log("Here is what is in myband: " + myband);
-         
-         //myband = myband.replace(/[\s,]+/g, ',');
      
-         //replaced = myband.split(' ').join('+');
-        
-         console.log("Here is what is in myband: " + myband);
          
          // var action = process.argv[2];
          process.argv[2] = 'RandomtxtArr[0]';
          
-  // for (i = 1; i < RandomtxtArr.length; i++)
-        //     {
-           //    process.argv.push(RandomtxtArr[i]);
-          //   }
             
          console.log("hey Thorpe, the value of Process.argv: " + process.argv);
           switch (process.argv[2]) 
