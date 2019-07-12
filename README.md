@@ -9,10 +9,7 @@ Purpose: Create an app that will execute the commands given by the user. the com
   a.) Spotify-this and a song name - the result should be an api response with the following info:
   
       - Artist(s)
-      
       - The song's name
-      
       - A preview link of the song from Spotify 
-      
       - The album that the song is from
                               
