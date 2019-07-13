@@ -4,6 +4,7 @@ var keys = require("./keys.js");
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
 var moment = require ('moment');
+var songName = "";
 
 // Include the axios npm package (Don't forget to run "npm install axios" in this folder first!)
 var axios = require("axios");
@@ -132,14 +133,14 @@ function concertthis()
               });
     }
 
-
+ 
 // If the "action" entered is "spotify-this-song" function is called...
 function spotifythissong() 
     {
       //console.log("** SPOTIFY RTN at the top **");
 
          //console.log("SPOTIFY- 1.) The value in nodeArgs: " + nodeArgs);
-         var songName = "";
+         
          //console.log("SPOTIFY - 2.) The value in songName : " + songName );
          //console.log("SPOTIFY - 3.) The nodeArgs length is " + nodeArgs.length);
         // console.log("SPOTIFY - 4.) The LOOP: ");
@@ -159,35 +160,57 @@ function spotifythissong()
                    }
          }
             
+         function isEmptyOrSpaces(songName)
+             {
+                  return songName=== null || songName.match(/^ *$/) !== null;
+             }
+         
+             if(isEmptyOrSpaces(songName))
+               {
+                 console.log("inside the if");
+                 songName ="The Sign Ace of Base"
+                 console.log("new song to search for:" + songName);
+               };
          //console.log('SPOTIFY QUERY USING songName: ' + songName);
                spotify.search(
                {
                     type: "track",
-                    query: songName
+                    query: songName,
+                    limit: 1
                },
+
                function (err, data) {
                     if (err) {
                          console.log("Error occurred: " + err);
                          return;
                     }
              var songs = data.tracks.items;
- 
-             console.log("**********SONG INFO*********");
-             fs.appendFileSync("log.txt", "**********SONG INFO*********\n");
-             fs.appendFileSync("log.txt", i +"\n");
-             console.log("Song name: " + songs[i].name);
-             fs.appendFileSync("log.txt", "song name: " + songs[i].name +"\n");
-             console.log("Preview song: " + songs[i].preview_url);
-             fs.appendFileSync("log.txt", "preview song: " + songs[i].preview_url +"\n");
-             console.log("Album: " + songs[i].album.name);
-             fs.appendFileSync("log.txt", "album: " + songs[i].album.name + "\n");
-             console.log("Artist(s): " + songs[i].artists[0].name);
-             fs.appendFileSync("log.txt", "artist(s): " + songs[i].artists[0].name + "\n");
-             console.log("*****************************");  
-             fs.appendFileSync("log.txt", "*****************************\n");
+
+             for (var i = 0; i < songs.length; i++)
+             {
+                    if (songs[i].name = songName)
+                        {
+                    
+                              console.log("**********SONG INFO*********");
+                              fs.appendFileSync("log.txt", "**********SONG INFO*********\n");
+                              fs.appendFileSync("log.txt", i +"\n");
+                              console.log("Song name: " + songs[i].name);
+                              fs.appendFileSync("log.txt", "song name: " + songs[i].name +"\n");
+                              console.log("Preview song: " + songs[i].preview_url);
+                              fs.appendFileSync("log.txt", "preview song: " + songs[i].preview_url +"\n");
+                              console.log("Album: " + songs[i].album.name);
+                              fs.appendFileSync("log.txt", "album: " + songs[i].album.name + "\n");
+                              console.log("Artist(s): " + songs[i].artists[i].name);
+                              fs.appendFileSync("log.txt", "artist(s): " + songs[i].artists[i].name + "\n");
+                              console.log("*****************************");  
+                              fs.appendFileSync("log.txt", "*****************************\n");
+                              i = songs.length 
+                        }
+              }
          }   
      );
  };
+ 
 // If the "action" entered is "movie-this" function is called...
 function moviethis() 
     {
