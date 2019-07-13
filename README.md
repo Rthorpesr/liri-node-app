@@ -6,19 +6,33 @@ Date: July 12, 2019
 Reason: GWU Boot camp  Homework assignment
                               
 Purpose: To create a node.js  application that demonstrates the following:
+
 1.)	Using NPM to install modules need to successfully run the program.
+
 2.)	Using and understanding of the following:
+
 a.)	 Require
+
 b.)	FS
+
 c.)	Reading of external text files
+
 d.)	Writing to external text files (Logging)
+
 e.)	 function, the “FS”   
-f.)	
+
 3.)	The program when working correctly should be able to
+
 a.	When typed on the command line: node liri.js concert-this <artist/band name here>
-i.	Execute the commands in the program and return a list of concert date for the band entered. The program with create a search using: Bands in Town Artist Events API ("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp") for the artist and render the following information about each event to the terminal:
-	Name of the venue
-	Venue location
+
+      i.	Execute the commands in the program and return a list of concert date for the band entered. T
+          The program with create a search using: Bands in Town Artist Events API ("https://rest.bandsintown.com/artists/" 
+           + artist + "/events?app_id=codingbootcamp") for the artist and render the following information about each event to
+           the terminal:
+           
+                      	Name of the venue
+                      
+                      	Venue location
 	Date of the Event (use moment to format this as "MM/DD/YYYY")
 4.)	When typed on the command line: node liri.js spotify-this-song '<song name here>' 
 This will show the following information about the song in your terminal/bash window
